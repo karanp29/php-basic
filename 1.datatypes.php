@@ -34,5 +34,32 @@ $null = null;
 $res =  null;
 
 
-// get datatype of any 
+// get datatype of any
+var_dump($str);
+echo("<br>");
+var_dump($int); 
+echo("<br>");
+var_dump($flo); 
+echo("<br>");
+var_dump($bool); 
+echo("<br>");
+var_dump($arr3); 
+echo("<br>");
+var_dump($obj); 
+echo("<br>");
+var_dump($null); 
+echo("<br>");
+var_dump($res); 
+
+// can change data type of same variable
+$x = 5;
+$x = "hello";
+// can change datatype using casting
+$y = 10;  // 10
+$y = (string)$y;  // "10" 
+
+
+
+// datatypes for numbers -  Infinity / NaN
+ 
 ?>
