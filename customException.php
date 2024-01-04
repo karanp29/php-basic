@@ -9,7 +9,7 @@ class customError extends Exception
 }
 
 try {
-    echo
+        // throw instance of error class
         throw new customError();
 } catch (customError $e) {
     //custom define method in customError Class

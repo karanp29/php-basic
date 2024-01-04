@@ -1,14 +1,17 @@
 <?php
 
+// final class cannot be inherit
+// final method cannot be override by child class
 final class Sample{
     function showData(){
         echo "this is from class ", __CLASS__;
     }
 
 }
-class Sam extends Sample{
+// uncomment and check
+// class Sam extends Sample{
 
-}
+// }
 
 //throw error at run time cannot inherit final class
 $s = new Sam();
