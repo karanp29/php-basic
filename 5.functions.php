@@ -70,7 +70,7 @@ print_r ($arr2) ;
 echo "new value of variable ",$num2;
 echo "<hr>";
 
-
+//generic 
 // ... variadic argument 
 // it must be last argument
 // accepts unkown number of arguments
@@ -108,4 +108,16 @@ function addFloat(float $a, float $b) : float {
   }
 echo addFloat(1.2, 5.2);
 
+
+
+
+//recursive
+function recursive($x){
+    if($x < 5){
+        echo "<br>number is ,", $x ;
+        recursive($x+1);
+    }
+}
+
+recursive(1);
 ?>

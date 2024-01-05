@@ -61,5 +61,12 @@ $p->fileDetails();
 $p->getNamespace();
 $p->namespace_class();
 
+// magic function
 
+// The following method names are considered magical:
+//  __construct(),
+//   __destruct(),
+//    __call(), __callStatic(), __get(), __set(), __isset(),
+//     __unset(), __sleep(), __wakeup(), __serialize(), __unserialize(), __toString(), __invoke(), __set_state(), __clone(), 
+// and __debugInfo().
 ?>

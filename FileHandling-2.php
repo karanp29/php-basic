@@ -32,10 +32,17 @@ echo "<hr>";
 myfileread();
 
 echo "<h3>Override Writing file (a)</h3><br>";
-$myfile = fopen($filename, "w") or die("unable to open file");
+$myfile = fopen($filename, "a") or die("unable to open file");
 echo fwrite($myfile, "this data is appended to previously added data....");
 fclose($myfile);
 echo "<hr>";
 
 myfileread();
+
+echo "<h3> Writing file (a)</h3><br>";
+$myfile = fopen($filename, "a") or die("unable to open file");
+echo fwrite($myfile, "this data is appended to previously added data....");
+fclose($myfile);
+echo "<hr>";
+
 ?>
