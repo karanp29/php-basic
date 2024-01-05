@@ -23,9 +23,9 @@ class Test{
 }
 
 class T extends Test{
-    function show(){
-        echo "this is from class",__CLASS__ , " method " , __METHOD__;
-    }
+    // function show(){
+    //     echo "this is from class",__CLASS__ , " method " , __METHOD__;
+    // }
 }
 
 $t = new T();
